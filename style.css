@@ -1,0 +1,164 @@
+
+.container{
+    margin: 10px 40px;
+    font-family: "Ruluko", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 2000px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header h2{
+    font-family: "Oleo Script Swash Caps", system-ui;
+    font-weight: 700;
+    font-style: normal;
+}
+.portfolio h2{
+    font-size: 30px;
+}
+.anchor a{
+    margin: 0px 10px;
+    text-decoration: none;
+    color: brown;
+    padding: 3px 5px;
+    font-size: 16px;
+}
+.anchor a:hover{
+    border-style: ridge;
+}
+.title-section{
+    background: linear-gradient(to right, #eeaeae, white);
+    padding: 48px;
+    border-radius: 10px;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 40px;
+}
+.title{
+    width: 50%;
+}
+.title h1{
+    font-size: 47px;
+}
+
+.faiza{
+    color: #a52a2a;
+    border-left: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding-left: 5px;
+
+}
+.btn{
+    background-color: #a52a2a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    position: relative;
+    top: 50px;
+}
+.img img{
+    width: 550px;
+    position: relative;
+    right: 100px;
+    transition: 0.3s;
+    
+}
+.img img:hover{
+    transform: scale(1.1);
+} 
+.text{
+    margin-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    border-bottom: solid #a52a2a;
+}
+.text h2{
+    font-size: 40px;
+}
+.languages{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    
+}
+
+.languages img{
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(to top, #dd4848, white);
+    padding: 15px 15px;
+    border-radius: 10px;
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+
+.text2{
+    height: 200px;
+    width: 800px;
+    padding-left: 250px;
+    margin: 0px 50px;
+    margin-top: 160px;
+    justify-content: center;
+    text-align: center;
+
+}
+.text2 h1{
+    font-size: 50px;
+}
+.skillimages{
+    display: flex;
+    justify-content: space-evenly;
+}
+.skillimages img{
+    height: 170px;
+    width: 170px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+.skillimages img:hover{
+    transform: scale(1.1);
+}
+.html{
+    background: linear-gradient(to top,#eeaeae, white);
+    height: 315px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+}
+.css2{
+    background: linear-gradient(to top,#eeaeae, white);
+    height: 315px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+}
+.javascript{
+    background: linear-gradient(to top,#eeaeae, white);
+    height: 315px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+}
+.git{
+    background: linear-gradient(to top,#eeaeae, white);
+    height: 315px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+}
+.youtube{
+    background: linear-gradient(to top,#eeaeae, white);
+    height: 315px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+}
+
